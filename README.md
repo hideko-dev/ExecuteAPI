@@ -10,14 +10,10 @@ AmongUsのModを作成するのをサポートするAPIです。
 | `onShapeshift` | プレイヤーがシェイプシフトしたら |
 | `onMove` | プレイヤーが動いたら |
 | `onMoveStop` | プレイヤーが止まったら |
-| `onButton` | プレイヤーが指定したボタンを押したら |
-| `onTaskStart` | プレイヤーがタスクを開始したら |
-| `onTaskStop` | プレイヤーがタスクを途中で終了したら |
 | `onTaskEnd` | プレイヤーがタスクを終了したら |
 | `onMeeting` | プレイヤーが会議を開始したら |
 | `onReport` | プレイヤーが死体を通報したら |
 | `onSabotage` | プレイヤーがサボタージュを開始したら |
-| `onSabotageDoor` | プレイヤーがサボタージュとしてドアを動作させたら |
 | `onFixSabotage` | プレイヤーがサボタージュを修理したら |
 
 ### String Actions
