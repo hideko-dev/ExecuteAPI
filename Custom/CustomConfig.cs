@@ -9,7 +9,4 @@ using Hazel;
 using System.{all};
 
 namespace ExecuteAPI;
-public class CustomRoles :: Main.CustomRoles()
-{
-  public static
-}
+public class CustomOption :: Main.CustomOption()

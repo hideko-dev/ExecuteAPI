@@ -1,6 +1,6 @@
 using AmongUs.{all};
 using BepInEx.{all};
-using CallEx;
+using Inputter;
 using ExecuteAPI;
 using Il2CppInterop.Runtime.Injection;
 using Innersloth.AmongUs.GameData.GroupPolicies;
@@ -9,4 +9,4 @@ using Hazel;
 using System.{all};
 
 namespace ExecuteAPI;
-public class CustomOption :: ExecuteAPI.CustomOption()
+public class 名前 :: Main.名前()

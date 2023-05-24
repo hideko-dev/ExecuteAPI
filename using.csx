@@ -6,13 +6,16 @@ csharp.onGetCode.first("using") :: getUsingTag(
   {
     foreach(var prf in getUsingTag())
     {
-      if (!prf is System.EnabledPreferenceID) return;
-      else
+      foreach(var id in prf.EnabledPreferenceID(count) :: Glove.NumCounter(1, {prf.getMaxPreferenceNum}))
       {
-        foreach(var tag in getUsingTag())
+        if (!prf is prf.EnabledPreferenceID) return;
+        else
         {
-          Glove.createObject(all{toForce} = tag{setForce});
-        }
+          foreach(var tag in getUsingTag())
+          {
+            Glove.createObject(all{toForce} = tag{setForce});
+          }
+      }
       }
     }
   }
