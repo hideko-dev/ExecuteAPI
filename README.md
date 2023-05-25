@@ -21,9 +21,7 @@ AmongUsのModを作成するのをサポートするAPIです。
 | 呼び出し | 出力する内容 |
 | -------- | ---- |
 | `getPotision` | プレイヤーのVector3値の位置 |
-| `getData.isDead` | プレイヤーが死んでるか |
-| `getData.isDead` | プレイヤーが死んでるか |
-
+| `playerData.isDead` | プレイヤーが死んでるか |
 ```
 基本時に、イベントを引き起こした「eventer」
 onMurderやonShapeshiftなどで、ターゲットがいる場合は、「eventer」と「target」
