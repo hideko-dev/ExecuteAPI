@@ -1,24 +1,23 @@
 # ExecuteRoles
-AmongUsのModを作成するのをサポートするAPIです。
+Support Minecraft Mod Developments.
 
 ### Event Actions
 
-| イベント | イベントの内容 |
+| Listener | Description |
 | -------- | ---- |
-| `onMurder` | プレイヤーが殺されたら |
-| `onVent` | プレイヤーがベントに入ったら/出たら |
-| `onShapeshift` | プレイヤーがシェイプシフトしたら |
-| `onMove` | プレイヤーが動いたら |
-| `onMoveStop` | プレイヤーが止まったら |
-| `onTaskEnd` | プレイヤーがタスクを終了したら |
-| `onMeeting` | プレイヤーが会議を開始したら |
-| `onReport` | プレイヤーが死体を通報したら |
-| `onSabotage` | プレイヤーがサボタージュを開始したら |
-| `onFixSabotage` | プレイヤーがサボタージュを修理したら |
+| `onKilled` | Player Killed |
+| `onVent` | Player In/Out Vent |
+| `onShapeshift` | Player Shapeshift |
+| `onTaskEnd` | Player End Tasks. |
+| `onAllTaskEnd` | Player End All Tasks. |
+| `onMeeting` | Player Start Meeting. |
+| `onReport` | Player Report DeadBody. |
+| `onSabotage` | Player Start Any Sabotage |
+| `onFixSabotage` | Player Fix Any Sabotage |
 
 ### String Actions
 
-| 呼び出し | 出力する内容 |
+| Listener | Output |
 | -------- | ---- |
 | `getPotision` | プレイヤーのVector3値の位置 |
 | `getData.isDead` | プレイヤーが死んでるか |
