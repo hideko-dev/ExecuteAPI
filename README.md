@@ -24,7 +24,7 @@
 | :-------- | :-------------------------------- | :----------------- |
 | `getData.VectorPotision` | Player's Vector3 Location | num-x, num-y |
 | `getData.isDead` | Player is Dead or Alive | true / false |
-| `getData.LiveName` | Player's Realtime Name | string |
+| `getData.FakeName` | Player's Realtime Name | string |
 | `getData.RealName` | Player's Real Game Name | string |
 | `getData.FriendCode` | Player's Friend Code | string#num |
 | `getData.MainRole` | Player's Main Role ID | string |
