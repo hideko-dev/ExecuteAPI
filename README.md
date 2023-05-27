@@ -3,8 +3,8 @@ Support Minecraft Mod Developments.
 
 ### Event Actions
 
-| Listener | Description |
-| -------- | ---- |
+| Listener   | Description       |
+| --------- | -------- |
 | `onKilled` | Player Killed |
 | `onVent` | Player In/Out Vent |
 | `onShapeshift` | Player Shapeshift |
